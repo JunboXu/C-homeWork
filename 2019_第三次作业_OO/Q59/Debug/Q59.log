@@ -1,0 +1,21 @@
+﻿  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27034 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /ZI /JMC /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt UIdesign.cpp
+  
+  UIdesign.cpp
+c:\users\jason\source\repos\2019_第三次作业_oo\q59\uidesign.cpp(51): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\jason\source\repos\2019_第三次作业_oo\q59\uidesign.cpp(131): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\jason\source\repos\2019_第三次作业_oo\q59\uidesign.cpp(157): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\jason\source\repos\2019_第三次作业_oo\q59\uidesign.cpp(195): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\jason\source\repos\2019_第三次作业_oo\q59\uidesign.cpp(235): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\jason\source\repos\2019_第三次作业_oo\q59\uidesign.cpp(237): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\jason\source\repos\2019_第三次作业_oo\q59\uidesign.cpp(251): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\jason\source\repos\2019_第三次作业_oo\q59\uidesign.cpp(253): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\jason\source\repos\2019_第三次作业_oo\q59\uidesign.cpp(291): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\jason\source\repos\2019_第三次作业_oo\q59\uidesign.cpp(300): warning C4018: “<”: 有符号/无符号不匹配
+  Microsoft (R) Incremental Linker Version 14.16.27034.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  "/OUT:C:\Users\jason\source\repos\2019_第三次作业_OO\Debug\Q59.exe" /INCREMENTAL kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST "/MANIFESTUAC:level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK "/PDB:C:\Users\jason\source\repos\2019_第三次作业_OO\Debug\Q59.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT "/IMPLIB:C:\Users\jason\source\repos\2019_第三次作业_OO\Debug\Q59.lib" /MACHINE:X86 Debug\UIdesign.obj 
+  Q59.vcxproj -> C:\Users\jason\source\repos\2019_第三次作业_OO\Debug\Q59.exe

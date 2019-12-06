@@ -1,0 +1,20 @@
+﻿  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27034 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /ZI /JMC /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt bank.cpp
+  
+  bank.cpp
+c:\users\jason\source\repos\2019_第三次作业_oo\q61\bank.cpp(180): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\jason\source\repos\2019_第三次作业_oo\q61\bank.cpp(189): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\jason\source\repos\2019_第三次作业_oo\q61\bank.cpp(240): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\jason\source\repos\2019_第三次作业_oo\q61\bank.cpp(255): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\jason\source\repos\2019_第三次作业_oo\q61\bank.cpp(265): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\jason\source\repos\2019_第三次作业_oo\q61\bank.cpp(278): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\jason\source\repos\2019_第三次作业_oo\q61\bank.cpp(284): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\jason\source\repos\2019_第三次作业_oo\q61\bank.cpp(187): warning C4715: “Bank::findCustomerByName”: 不是所有的控件路径都返回值
+c:\users\jason\source\repos\2019_第三次作业_oo\q61\bank.cpp(196): warning C4715: “Bank::findAccountById”: 不是所有的控件路径都返回值
+  Microsoft (R) Incremental Linker Version 14.16.27034.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  "/OUT:C:\Users\jason\source\repos\2019_第三次作业_OO\Debug\Q61.exe" /INCREMENTAL kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST "/MANIFESTUAC:level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK "/PDB:C:\Users\jason\source\repos\2019_第三次作业_OO\Debug\Q61.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT "/IMPLIB:C:\Users\jason\source\repos\2019_第三次作业_OO\Debug\Q61.lib" /MACHINE:X86 Debug\bank.obj 
+  Q61.vcxproj -> C:\Users\jason\source\repos\2019_第三次作业_OO\Debug\Q61.exe
